@@ -1,0 +1,63 @@
+# Neovim runtime data - contains sessions, caches, and potential credentials
+nvim-data/
+
+# Neovim local settings and credentials
+nvim/.claude/settings.local.json
+nvim/.luarc.json
+nvim/.neoconf.json
+
+# Log files
+*.log
+logs/
+
+# Session files
+Session.vim
+.session
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Credential files
+**/api_key
+**/api_keys
+**/.env
+**/.env.local
+**/.env.*.local
+**/credentials
+**/secrets
+**/.secrets
+**/config/keys/
+**/.ssh/
+**/.gnupg/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# WezTerm logs and crash dumps
+wezterm.log
+*.dmp
+*.crash
+.claude/
