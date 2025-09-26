@@ -7,7 +7,7 @@ wezterm.GLOBAL.bg_index = wezterm.GLOBAL.bg_index or 2           -- Start with b
 wezterm.GLOBAL.opacity_index = wezterm.GLOBAL.opacity_index or 4 -- Start with 0.97 (closest to current)
 wezterm.GLOBAL.opacity_enabled = wezterm.GLOBAL.opacity_enabled or true
 wezterm.GLOBAL.saved_opacity = wezterm.GLOBAL.saved_opacity or 0.97
-wezterm.GLOBAL.theme_index = wezterm.GLOBAL.theme_index or 1 -- Start with Ryuuko (current)
+wezterm.GLOBAL.theme_index = wezterm.GLOBAL.theme_index or 3 -- Start with Ryuuko (current)
 
 -- Background cycling function
 local function cycle_background(window)
@@ -76,7 +76,8 @@ config.launch_menu = {
 
 config.font_size = 12
 config.line_height = 1.2
-config.color_scheme = "Ryuuko"
+config.color_scheme = "Sea Shells (Gogh)"
+config.colors = { compose_cursor = "#5D8AA8" }
 
 -- (AKA: CaskaydiaCove NFM)
 -- C:\WINDOWS\FONTS\CASKAYDIACOVENERDFONTMONO-REGULAR.TTF, DirectWrite
